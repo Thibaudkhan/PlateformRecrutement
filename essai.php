@@ -1,4 +1,5 @@
 <?php
+//Ne marche pas
 
 //$db new PDO("mysql:host=$127.0.0.1;dbname=$ItesciaRecrut","root","");
 
@@ -33,7 +34,7 @@ if(isset($_POST['forminscription']))
                             {
                                 if ($mdp == $mdp2)
                                 {
-                                    $insertcand = $db->prepare("INSERT INTO Candidates(pseudo, mail_candidate, mdp_candidate) VALUES(?, ?, ?)");
+                                    $insertcand = $db->prepare("INSERT INTO candidates(pseudo, mail_candidate, mdp_candidate) VALUES(?, ?, ?)");
                                     $insertcand ->execute(array($pseudo, $mail, $mdp));
                                     $erreur = "Votre compte a bien été créé !";
                                     //$_SESSION['comptecree'] = "Votre compte a bien été créé !";

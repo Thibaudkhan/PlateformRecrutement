@@ -2,7 +2,7 @@
 
 function db_connect() {
     $host = "localhost";
-    $dbname = "ItesciaRecrut";
+    $dbname = "recrutement";
     $user = "root";
     $password = "";
 
