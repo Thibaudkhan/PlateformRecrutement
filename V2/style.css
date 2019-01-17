@@ -1,0 +1,161 @@
+body
+{
+    font-size: 15px;
+    line-height: 1.6em;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container
+{
+    /*margin: 5%;*/
+    text-align: center;
+    
+}
+
+header
+{
+    border-bottom: 3px #f4f4f4 solid;
+}
+
+footer
+{
+    border-top: 3px #f4f4f4 solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main
+{
+    padding-bottom: 20px;
+}
+
+/*#imgHeader
+{
+    width: 50%;
+    height: 30%;
+    margin-top: -9%;
+    margin-left: 27%;
+}*/
+#imgHeaderLeft
+{
+    width: 24%;
+    height: 21%;
+    margin-top: -13%;
+    margin-left: 7%;
+
+}
+#imgHeaderRight
+{
+    width: 57%;
+    height: 16%;
+    margin-top: -5%;
+   padding-left: 5%;
+
+}
+.début
+{
+}
+.inscription
+{
+    background-color: gainsboro;
+    width: 60%;
+    margin-top: 7%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.questions
+{
+    text-align: center;
+}
+
+.questionsForm
+{
+vertical-align: auto;
+}
+
+.tableForm
+{
+    vertical-align: auto;
+    border-collapse:separate;
+    border-spacing: 8px;
+}
+.ligneForm
+{
+    padding:5px 0;
+}
+
+a.start
+{
+    display: inline-block;
+    color: black;
+    background: #cc2030;
+    border: 1px solid black;
+    padding: 6px 13px;
+}
+
+#Accroche-Inscription
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#Accroche-Question
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*table
+{
+    border-color: #e10000;
+}*/
+
+table {
+    /*border-width:2px; 
+    border-style:solid; 
+    border-color: #bbbbbb;*/
+    margin-left: -2.5%;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.tableQCM
+{
+    border-collapse:separate;
+    border-spacing: 8px;
+    border: #cc2030;
+    border: solid;
+}
+
+.ligneQCM
+{
+    padding:5px 0; border:solid 1px #808080;
+    border: solid;
+    border-color: #808080;
+}
+
+#navigation
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cc2030;
+    height: 5%;
+}
+
+button
+{
+	background-color: #FFFFFF;
+	font-size: 13px;
+    /*border: 1.5px solid black;*/
+}
+
+/* td { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:red;
+    width:50%;
+    }*/
